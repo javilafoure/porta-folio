@@ -33,8 +33,10 @@ function page() {
                     </li>
 
                     <li>
+                        <Link href={'/about'}>
+                            About
+                        </Link>
 
-                        About
 
                     </li>
 
