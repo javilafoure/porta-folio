@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function page() {
@@ -18,14 +19,16 @@ function page() {
                 <ul className="flex gap-8">
 
                     <li>
-
-                        Home
-
+                        <Link href={'/main'}>
+                            Home
+                        </Link>
                     </li>
 
                     <li>
+                        <Link href={'/project'}>
+                            Project
+                        </Link>
 
-                        Project
 
                     </li>
 
